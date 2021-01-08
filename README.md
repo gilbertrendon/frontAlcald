@@ -43,6 +43,7 @@ https://www.youtube.com/watch?v=84YlkcuFeAk&t=2s (voy en el minuto 53)
 --Para estos updates mencionados se borrará el vuelvo con el id seleccionado de vuelosconhorariosproisblesentredestinos de la BD
 --Luego se insertará el nuevo elemento selccionado de vuelosconhorariosproisblesentredestinos
 
+--El siguiente save se deja pero no es OBLIGATORIO POR EL MOMENTO
 --pseudocódigo(java):
 --@PostMapping("/addflight")
 --public Flight saveFlight(@RequestBody Flight flight){
@@ -50,3 +51,6 @@ https://www.youtube.com/watch?v=84YlkcuFeAk&t=2s (voy en el minuto 53)
 --	return service.saveFlightToDB(flight) //saveFlightToDB va en los services
 --}
 --NOTA: Si por alguna razón se duplican elementos con la misma clave primaria mirar el proyecto crud en CrudRestController
+
+
+--PARA LAS RESERVAS VA UN SAVE COMO EL ANTERIOR
