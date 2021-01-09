@@ -53,4 +53,9 @@ https://www.youtube.com/watch?v=84YlkcuFeAk&t=2s (voy en el minuto 53)
 --NOTA: Si por alguna razón se duplican elementos con la misma clave primaria mirar el proyecto crud en CrudRestController
 
 
---PARA LAS RESERVAS VA UN SAVE COMO EL ANTERIOR
+--PARA LAS RESERVAS VA UN SAVE COMO EL ANTERIOR, ADEMÁS
+-- En donde se reserva se hará un filtro donde se pondra: cityinit-cityend(este tendrá el autocompletado), luego un select box
+-- donde se seleccionará el usuario quien reserva
+
+
+--NOTA:EN EL 56:13 se crean productos con un form, pero yo pienso hacer la reserva desde button normal
